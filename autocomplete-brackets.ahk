@@ -17,7 +17,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;Menu, Tray, Icon, expanded_icon.ico, 1, 1
 
-:*:(::
+:*?:(::
 SendInput, {Raw}()
 SendInput, {Left 1} 
 return
@@ -27,9 +27,9 @@ SendInput, {Raw}''
 SendInput, {Left 1}
 return
 
-; Also a formatting issue, the semicolon is correctly recognized as ';'
+; Bonus :D
 
-:*?:sout::
+:*:sout::
 SendInput, System.out.println();{Left 2} 
 return
 
@@ -48,7 +48,6 @@ SendInput, {Raw}<>
 SendInput, {Left 1}
 return
 
-; Keep this one last because it messes up formatting...
 :*:"::
 SendInput, ""{Left 1}  
 return
