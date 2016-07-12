@@ -1,0 +1,1 @@
+This folder is just for some images and stuff that are going to be used in the main README so nothing interesting here
