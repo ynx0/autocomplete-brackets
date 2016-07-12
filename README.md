@@ -3,6 +3,28 @@ This is repository for an ahk script that will automatically close brackets such
 
 It also positions the caret inside the brackets
 
-### Full list:
+## Full list:
 
 `(),{},[],"",'',<>`
+
+## Installation
+
+
+If you want pre-compiled exe,
+
+  1. Go to builds
+  2. Download the latest version (the one with highest number)
+  3. Choose a place to put it
+  4. Double click it
+  5. You are good to go!
+
+(This will allow you to mess with the bindings and have your own settings)
+Building from source:
+  
+  1. Install [autohotkey](https://www.autohotkey.com/download/ahk-install.exe)
+  2. Download the script
+  3. Modify it if you want
+  4. Run ahk2exe
+  5. Set the script path and destination exe path
+  6. Click convert
+  7. Run it and be done with it.
